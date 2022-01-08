@@ -1,0 +1,34 @@
+.work {
+    font-size: 35px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .work-icons {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .work-icons img {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    object-fit: contain;
+  }
+  
+  .scroll-btn {
+    margin-bottom: 0px;
+    width: 150px;
+  }
+  
+  .back-to-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+  }
+  
