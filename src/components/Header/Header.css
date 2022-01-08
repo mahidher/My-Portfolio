@@ -1,0 +1,30 @@
+.header {
+    background: transparent;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-brand * {
+    margin-right: 10px;
+  }
+  
+  .header-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-links * {
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  
